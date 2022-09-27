@@ -1,0 +1,31 @@
+public class problem1 {
+    public void add(double p,double q)
+    {
+        System.out.println("Addition:"+(p+q));
+    }
+    public void sub(double p,double q)
+    {
+        System.out.println("Substraction:"+(p-q));
+    }
+    public void mul(double p,double q)
+    {
+        System.out.println("Multiplication:"+(p*q));
+    }
+    public void div(double p,double q)
+    {
+        System.out.println("division:"+(p/q));
+    }
+}
+
+
+
+public class program1App {
+
+    public static void main(String[] args) {
+        problem1 pr=new problem1();
+        pr.add(121.5,2.67);
+        pr.sub(68.78,28.28);
+        pr.mul(9.76,90.5);
+        pr.div(74.61,3.9);
+    }
+}
